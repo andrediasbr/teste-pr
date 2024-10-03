@@ -16,4 +16,5 @@ jobs:
     steps:
 
     - name: Run Validation
-      run: echo "Validation"
+      run: 
+        cat readme.md | grep erro
