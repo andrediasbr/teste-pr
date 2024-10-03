@@ -15,5 +15,9 @@ jobs:
 
     steps:
 
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
     - name: Run Validation
-      run: echo "Validation"
+      run: 
+        cat ./readme.md
