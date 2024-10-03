@@ -1,0 +1,19 @@
+name: validation
+
+on: 
+  pull_request:
+    types:
+      - opened
+      - synchronize
+    branches: 
+      - develop
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Run Validation
+      run: echo "Validation"
