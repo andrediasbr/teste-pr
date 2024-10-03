@@ -17,4 +17,4 @@ jobs:
 
     - name: Run Validation
       run: 
-        cat readme.md | grep erro
+        cat ./readme.md
